@@ -1,0 +1,346 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>SGID10.TRANSPORTATION.Roads</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Update Info:Last Updated: February 08, 2017Contact Info:The statewide roads dataset is maintained by AGRC in partnership with local government, the Utah 911 Committee, and UDOT.Questions can be directed to AGRC.Usage:Transportation.Roads utilizes the Statewide Roads Data Model Standard, formally known as the Utah Transportation Data Model. The UGIC Road Centerline Sub-committee has been in the process of revising the content and structure of the Utah Transportation Data Model. The final draft of what is now being referred to as the ‘Statewide Roads Data Model Standard’ is pending approval by the UGIC Standards Committee.View the data model attribute descriptions and definitions: https://docs.google.com/document/d/1ojjqCa1Z6IG6Wj0oAbZatoYsmbKzO9XwdD88-kqm-zQ/edit?usp=sharingView the data model schema diagram: https://docs.google.com/open?id=0Bz18jufMWioiU25icDNoQWlJa2MThe Statewide Roads Data Model Standard is divided into two ‘tier’ levels:Tier Level 1 fields pertain to address location, cartography, and routing. Stewards are encouraged to maintain data that will map to the Tier Level 1 fields. The field named DOT_* are an exception, as UDOT will maintain these themselves.Examples of the CARTOCODE (formally CFCC) field descriptions:1 – Interstates2 – US Highway, Separated4 – Major State Highway, Separated7 – Ramps, Collectors9 – Major Local Roads, PavedTier Level 2 fields pertain to local agency maintenance and inventory and are utilized and shared if the local steward chooses to do so.Changes to the data model include a more logical approach to the ordering of fields and their names, in addition to the removal of multiple redundant fields. Proposals by the UGIC Standards Committee are meant as suggested ‘best practices’ and are primarily designed for data transfer and sharing. It is not the intent that all stewards will change their current data management process to match this standard, but rather that stewards will evealuate their current practices to see how well their data ‘maps’ to this schema for data sharing purposes. Questions can be directed to AGRC.The native spatial reference for this dataset is UTM Zone 12N, NAD83 (0.01 meter coordinate precision).</abstract>
+      <purpose>Utah street centerline data for address location, cartography, routing. Uses the unnormalized Utah Transportation Data Model. Data is contibuted regularly from local, county, state, federal, and tribal governments and is aggregated and improved by AGRC.</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-114.275471</westbc>
+        <eastbc>-108.903015</eastbc>
+        <northbc>42.032059</northbc>
+        <southbc>36.944743</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Streets</themekey>
+        <themekey>Centerlines</themekey>
+        <themekey>Addressing</themekey>
+        <themekey>Geocoding</themekey>
+        <themekey>Location</themekey>
+        <themekey>Roads</themekey>
+        <themekey>UDOT</themekey>
+        <themekey>Transportation</themekey>
+        <themekey>Utah</themekey>
+        <themekey>Address Ranges</themekey>
+        <themekey>Highway</themekey>
+        <themekey>Freeway</themekey>
+        <themekey>Routes</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>There are no constraints or warranties with regard to the use of this dataset. Users are encouraged to attribute content to: State of Utah, SGID.This product is for informational purposes and may not have been prepared for, or be suitable for legal, engineering, or surveying purposes. Users of this information should review or consult the primary data and information sources to ascertain the usability of the information. AGRC provides these data in good faith and shall in no event be liable for any incorrect results, any lost profits and special, indirect or consequential damages to any party, arising out of or in connection with the use or the inability to use the data hereon or the services provided. AGRC provides these data and services as a convenience to the public. Further more, AGRC reserves the right to change or revise published data and/or these services at any time.</useconst>
+    <datacred>State of Utah, Automated Geographic Reference Center
+State Geographic Information Database (SGID)
+
+Utah State 911 Fund
+
+Utah Counties and partners (cities, 911 centers, etc.)
+
+Valley Emergency Communications Center (and city partners)
+
+Blue Stakes of Utah
+
+Utah Department of Transportation (UDOT)</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.1.4959</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>382380</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 12N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-111.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.01</absres>
+            <ordres>0.01</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>SGID10.TRANSPORTATION.Roads</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ACCESS</attrlabl>
+        <attrdef>Access Restrictions</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ACCURACY</attrlabl>
+        <attrdef>Accuracy Statement</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ACSALIAS</attrlabl>
+        <attrdef>Address Coordinate Street (Full)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ACSNAME</attrlabl>
+        <attrdef>Address Coordinate Street Name</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ACSSUF</attrlabl>
+        <attrdef>Address Coordinate Street Suffix</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ADDR_QUAD</attrlabl>
+        <attrdef>Address Quadrant</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ADDR_SYS</attrlabl>
+        <attrdef>Address System Name</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ALIAS1</attrlabl>
+        <attrdef>Alias1 Street Name</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ALIAS1TYPE</attrlabl>
+        <attrdef>Alias1 Street Type</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ALIAS2</attrlabl>
+        <attrdef>Alias2 Street Name</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ALIAS2TYPE</attrlabl>
+        <attrdef>Alias2 Street Type</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>CARTOCODE</attrlabl>
+        <attrdef>Cartographic Code</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>CLASS</attrlabl>
+        <attrdef>Road Classification</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>COFIPS</attrlabl>
+        <attrdef>County FIPS Code</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>COLLDATE</attrlabl>
+        <attrdef>Feature Collection Date</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>COUNIQUE</attrlabl>
+        <attrdef>County Identifier</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>DOT_COFUND</attrlabl>
+        <attrdef>UDOT Funded County</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>DOT_F_MILE</attrlabl>
+        <attrdef>UDOT From Milepost</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>DOT_FUNC</attrlabl>
+        <attrdef>UDOT Function</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>DOT_RTID</attrlabl>
+        <attrdef>UDOT Route ID</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>DOT_RTNAME</attrlabl>
+        <attrdef>UDOT Rotue Name</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>DOT_RTPART</attrlabl>
+        <attrdef>UDOT Route Part</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>DOT_T_MILE</attrlabl>
+        <attrdef>UDOT To Milepost</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>DSTRBWIDTH</attrlabl>
+        <attrdef>Road Disturbance Width</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>FED_RDID</attrlabl>
+        <attrdef>Federal Road ID</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>FULLNAME</attrlabl>
+        <attrdef>Full Street Name</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>GLOBALID</attrlabl>
+        <attrdef>Global Identifier</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>HWYNAME</attrlabl>
+        <attrdef>Highway Abbreviation Name</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>L_F_ADD</attrlabl>
+        <attrdef>Left From Address</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>L_T_ADD</attrlabl>
+        <attrdef>Left To Address</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LOCALFUNC</attrlabl>
+        <attrdef>Local Function</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LOCALID</attrlabl>
+        <attrdef>Local Unique Identifier</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>MAINTJURIS</attrlabl>
+        <attrdef>Maintenance Jurisdiction</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>MODIFYDATE</attrlabl>
+        <attrdef>Date Last Modified</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>NOTES</attrlabl>
+        <attrdef>Notes</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ONEWAY</attrlabl>
+        <attrdef>One Way Direction</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>PREDIR</attrlabl>
+        <attrdef>Prefix Directional</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>R_F_ADD</attrlabl>
+        <attrdef>Right From Address</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>R_T_ADD</attrlabl>
+        <attrdef>Right To Address</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SOURCE</attrlabl>
+        <attrdef>Entity Source</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SPEED</attrlabl>
+        <attrdef>Approximate Speed Limit</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>STATUS</attrlabl>
+        <attrdef>Road Status</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>STREETNAME</attrlabl>
+        <attrdef>Primary Street Name</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>STREETTYPE</attrlabl>
+        <attrdef>Primary Street Type</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SUFDIR</attrlabl>
+        <attrdef>Suffix Directional</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SURFTYPE</attrlabl>
+        <attrdef>Road Surface Type</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SURFWIDTH</attrlabl>
+        <attrdef>Road Surface Width</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>USAGENOTES</attrlabl>
+        <attrdef>Usage Notes</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>USPS_PLACE</attrlabl>
+        <attrdef>USPS Preferred Place Name</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>VERTLEVEL</attrlabl>
+        <attrdef>Vertical Elevation</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ZIPLEFT</attrlabl>
+        <attrdef>Left Zip Code</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ZIPRIGHT</attrlabl>
+        <attrdef>Right Zip Code</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>BIKE_L</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BIKE_R</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BIKE_NOTES</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BIKE_STATUS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE.STLength()</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20170208</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>
